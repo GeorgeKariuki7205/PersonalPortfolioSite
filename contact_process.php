@@ -12,10 +12,9 @@
 	$headers .= "MIME-Version: 1.0\r\n";
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
-    $subject = "You have a message from your Ramirez.";
+    $subject = "You have a message from your meeeeee.";
 
-    $logo = 'http://srthemes.com/demo/ramirez/image/logo.png';
-    $link = '#';
+
 
 	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Ramirez Mail</title></head><body>";
 	$body .= "<table style='width: 100%;'>";
@@ -32,5 +31,6 @@
 	$body .= "</body></html>";
 
     $send = mail($to, $subject, $body, $headers);
+	mail();
 
 ?>
